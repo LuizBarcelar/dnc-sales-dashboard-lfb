@@ -10,6 +10,12 @@ const LoginImage = styled.div`
   height: 100vh;
   width: 50vw;
 `
+declare module 'styled-components' {
+  export interface DefaultTheme {
+    appBackground: string
+    appColor: string
+  }
+}
 
 function Login() {
   return (
