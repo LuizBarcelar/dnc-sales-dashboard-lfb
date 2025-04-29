@@ -1,8 +1,8 @@
 import { Theme } from '@types'
 
 export const lighTheme: Theme = {
-  appBackground: '#FFF',
-  appColor: '#000',
+  appBackground: '#FFFFFF',
+  appColor: '#000000',
   appDefaultStroke: '#E0E0E0',
   appLogo: 'dnc-logo-black.svg',
   appSkeletonFrom: '#EEE',
